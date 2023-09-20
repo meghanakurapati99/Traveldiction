@@ -1,4 +1,4 @@
 # Traveldiction
 
-## Added User Stories on Issues
+## Added User Stories in Issues tab
 
