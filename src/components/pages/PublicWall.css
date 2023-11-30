@@ -1,0 +1,11 @@
+.public-wall {
+    flex: 2;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-left: 1px solid #e0e0e0;
+}
+
+.public-wall h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,33 @@
+.travel-buddy-container {
+    margin: 20px;
+    padding: 20px;
+}
+
+.travel-buddy-title {
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.travel-buddy-description {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+.post-itinerary-button {
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.post-itinerary-button:hover {
+    background-color: #0056b3;
+}

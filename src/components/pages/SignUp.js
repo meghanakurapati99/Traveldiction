@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../App.css';
+import { Link } from 'react-router-dom';
 
 
 export default function SignUp() {
@@ -16,11 +17,13 @@ export default function SignUp() {
             <input type='text' placeholder='johndoe@gmail.com'></input><br></br>
             <label>Password</label> <br></br>
             <input type='password' placeholder='password'></input><br></br>
-            <button type='submit' className='btn-sign'>Sign Up</button>
+            <p className='Forgot Password'><span> Forgot Password? </span></p>
+            <button type='submit' className='btn-sign'>Login</button>
           </form>
-
           <div>
-            <p className='have-account'>Have an account? <span>Log In here </span></p>
+            <p className='Do not have-account'>Don't have an account? 
+              <Link to="/CreateAccount" className='create-account-link'>Create new account</Link>
+            </p>
           </div>
         </div>
 

@@ -1,7 +1,17 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
+
+
 import Footer from '../Footer';
 
 export default function Destination() {
+  const navigate = useNavigate(); 
+
+  // Function to navigate to the payment form
+  const handleBookNowClick = () => {
+    navigate('/PaymentForm'); 
+  };
+
   return (
     <>
       <div className='destination'>
@@ -33,7 +43,8 @@ export default function Destination() {
               <p className='price'>$ 780</p>
               <p className='per-person'>per person</p>
             </section>
-            <button type='button' className='btn-book'>Book now</button>
+            <button type='button' className='btn-book' onClick={handleBookNowClick}>
+            Book now</button>
           </div>
         </div>
       
