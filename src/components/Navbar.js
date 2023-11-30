@@ -48,13 +48,16 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/sign-up' className='nav-links-mobile' onClick={ closeMobileMenu } >
+              <Link to='/TravelCompanion' className='nav-links' onClick={ closeMobileMenu } >
+                TravelCompanion
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link to='/sign-up' className='nav-links' onClick={ closeMobileMenu } >
                 Sign up
               </Link>
             </li>
           </ul>
-          {/* this is the children of Button component that has a buttonStyle */}
-          { button && <Button buttonStyle='btn--outline'>Sign Up</Button>}
           </div>
 
       </nav>
